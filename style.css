@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Alata", sans-serif;
+}
+.ul-navbar {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+.navbar-items {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 14rem;
+  align-items: center;
+}
+.logo-navbar {
+  font-size: 2.5rem;
+  color: white;
+}
+.header-paragraf {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  border: 3px solid white;
+  font-size: 4rem;
+  width: 40%;
+  margin-left: 14rem;
+  margin-top: 4rem;
+  padding: 1.5rem;
+}
+.bg-image {
+  background-image: url(images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 34rem;
+  background-size: 100%;
+}
+.main {
+  margin: 7rem 14rem;
+  display: flex;
+  align-items: center;
+}
+.main-paragraf {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+  position: relative;
+  right: 10rem;
+  padding: 3rem;
+  top: 8.3rem;
+}
+.img-main {
+  width: 45rem;
+}
+.p-the-leader {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  width: 28rem;
+}
+.p-founded {
+  font-size: 1.2rem;
+}
+.p-our {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.our-see {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+}
+.button-see {
+  padding: 0.5rem 1.5rem;
+}
+.flex-image {
+  width: 15.4rem;
+}
+.flex-1 {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  gap: 1.8rem;
+}
+.flex-text {
+  color: white;
+  position: relative;
+  bottom: 4rem;
+  left: 1rem;
+  font-size: 1.3rem;
+  width: 7rem;
+}
+.our-creations {
+  margin: 0 14rem;
+}
+.footer {
+  padding: 1rem 14rem;
+  color: white;
+  background-color: hsl(0, 0%, 0%);
+}
+.footer-flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loop-footer {
+  font-size: 2rem;
+}
+.ul-footer {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+.ul-link {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-flex2 {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.all-right {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 55%);
+}
+.icons {
+  color: white;
+}
+.hr {
+  position: relative;
+  top: 3px;
+  width: 1rem;
+  margin: 0 auto;
+  display: none;
+}
+.button-see:hover {
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+.our-see {
+  width: 1070px;
+}
+.footer {
+  padding: 16px 224px;
+  padding-right: 155px;
+}
